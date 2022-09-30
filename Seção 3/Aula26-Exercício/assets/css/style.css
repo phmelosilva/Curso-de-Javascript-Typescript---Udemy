@@ -21,17 +21,18 @@ body {
 .container {
   max-width: 640px;
   margin: 50px auto;
-  background: #fff;
+  background: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 10px;
+
 }
 
-.containerIMC {
-  background-color: blue;
-}
 
-.containerResultado {
-  background-color: blueviolet;
+.colunas_Res_e_IMC {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 510px;
 }
 
 form input, form label, form button {
@@ -65,7 +66,12 @@ form button:hover {
   background: var(--primary-color-darker);
 }
 
-.paragrafo-resultado {
+.paragrafo-resultado, .bad {
   background: rgb(64, 231, 190);
   padding: 10px 20px;
+
+}
+
+.bad {
+  background-color:rgb(202, 99, 99);
 }
