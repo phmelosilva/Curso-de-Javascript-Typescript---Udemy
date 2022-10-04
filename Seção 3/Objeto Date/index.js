@@ -12,8 +12,8 @@
 
 // -------- Date em String ---------------
 const data = new Date('2019-04-20 20:20:59'); //Passando os dados em string
-console.log('Dia', data.getDate()); // os métodos pegam os valores
-console.log('Mês', data.getMonth() + 1); // Mẽs começa do zero
+console.log('Dia', data.getDate()); // os métodos pegam os valores,
+console.log('Mês', data.getMonth() + 1); // Mẽs começa do valor zero
 console.log('Ano', data.getFullYear());
 console.log('Hora', data.getHours());
 console.log('Min', data.getMinutes());
