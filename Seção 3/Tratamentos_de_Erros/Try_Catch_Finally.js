@@ -4,7 +4,7 @@ function retornaHora(data) {
     }
 
     if (!data) {
-        data = new Date();
+        data = new Date(); //Envia a data automática se não enviarmos uma data
     }
 
     return data.toLocaleTimeString('pt-BR', {
@@ -23,7 +23,7 @@ try {
     // Tratar erro
     //console.log(e);
 } finally {
-    console.log('Tenh um bom dia.');
+    console.log('Tenha um bom dia.');
 }
 
 
